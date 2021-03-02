@@ -1,0 +1,18 @@
+﻿<Window x:Class="EIH_File_Promotion.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EIH_File_Promotion"
+        mc:Ignorable="d"
+        Title="EIH File Promotion" Height="270.868" Width="403">
+    <Grid>
+        <Label Content="Source Directory:" HorizontalAlignment="Left" Margin="10,13,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="fromPath" HorizontalAlignment="Left" Height="23" Margin="140,16,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="236"/>
+        <TextBox Name="toPath" HorizontalAlignment="Left" Height="23" Margin="140,67,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="236" RenderTransformOrigin="0.475,2.406"/>
+        <TextBox Name="fileName" HorizontalAlignment="Left" Height="23" Margin="140,113,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="236" RenderTransformOrigin="0.475,2.406"/>
+        <Label Content="Destination Directory:" HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top"/>
+        <Label Content="File to Promote:" HorizontalAlignment="Left" Margin="10,113,0,0" VerticalAlignment="Top"/>
+        <Button Name="btnPromote" Content="Promote" HorizontalAlignment="Left" Margin="224,191,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="3.294,6.344"/>
+    </Grid>
+</Window>
